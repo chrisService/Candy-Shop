@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">La Créme</string>
+    <string name="torti">торти</string>
+    <string name="kolaci">колачи</string>
+    <string name="slatki">слатки</string>
+    <string name="kontakt_i_mapa">контакт и мапа</string>
+    <string name="kontakt">контакт</string>
+    <string name="mapa">мапа</string>
+    <string name="openDrawer">1</string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="n_077_879_710">ТЕЛЕФОН ЗА НАРАЧКИ  \n 077 879 710</string>
+    <string name="chrisservice">chrisService</string>
+    <string name="notify">нотификации</string>
+    <string name="е">потсети ме за нешто слатко</string>
+    <string name="doma">дома</string>
+</resources>

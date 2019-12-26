@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/doma"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/doma" />
+    </group>
+
+    <item android:title="@string/slatki">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/torti"
+                    android:icon="@drawable/cake"
+                    android:title="@string/torti" />
+                <item
+                    android:id="@+id/kolaci"
+                    android:icon="@drawable/ic_tag_faces_black_24dp"
+                    android:title="@string/kolaci" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/kontakt_i_mapa">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/map"
+                    android:icon="@drawable/ic_map_black_24dp"
+                    android:title="@string/mapa" />
+                <item
+                    android:id="@+id/kontakt"
+                    android:icon="@drawable/ic_phone_black_24dp"
+                    android:title="@string/kontakt" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/notify">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_switch"
+                    android:title="@string/е"
+                    app:actionLayout="@layout/switch_item" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
